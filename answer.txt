@@ -1,0 +1,13 @@
+Exercise1:#include <stdio.h> and #includesunistd.h> are only built in libraries used in the code. So the code is using fork and fork is to make a process from extsting one so we have two processes one is called the parent and other one is made from it which is called child.We have two if conditions if pid==0 it means I am the child and if pid>0 I am the parent If it is neither boths I will return fork falled because no child.And output of exercise must give me ID for parent and child.
+
+Exercise2: In exercise2 we have command sleep which put process in sleep so in this time it do nothing and we can also use command jobs to see all process we have and their state wethear they are running or in sleep or terminated
+
+ Exercise3: In Exercise3 we used command ps aux | grep sleep this command means it will search for all process that are in sleep and then command kill is used to terminate that sleep process by giving it the id of process.
+
+ Exercise4:In exercise4 it is the same as exercise 3 the difference is that we didnt terminated the process we stopped process by giving its ID to command kill -STOP and then resumed it or made it work again by giving same process ID to command Kill -CONT.
+
+Exercise5: In Exercise5 we have two different c codes one is simply is a function that mply is a function that prints hello and another code which is the main that call hello function to print hello so how we will connect them they will be connected with linker which link different files and compile them as one file so after linking them we should have output which
+
+is our hello print.
+
+Exercise6: In exercise6 we have a simple c code that only prints a word and then we use loader the loader is only telling which libraries am using in this code It loads or contains all libraries that can be used.
